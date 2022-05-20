@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+body{
+    background-color: #23252C;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.main--card{
+    height :100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card--content{
+    width: 317px;
+    background-color: #F5F5F5;
+}
+
+.profile--picture{
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.name{
+    margin:0;
+
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.job--title{
+    text-align: center;
+    margin:0;
+    margin-top: 6px;
+    color: #F47D27;
+    line-height: 15px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.contact--buttons{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+.contact--buttons a{
+    height: 34px;
+    width: 115px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    gap: 6px;
+
+    box-shadow: 0px 1px 2px 0px #0000000D;
+}
+
+.email--button{
+    background-color: white;
+    
+    color: #374151;
+}
+
+.linkedIn--button{
+    background: #297FE5;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
