@@ -29,7 +29,7 @@ export function ContactButtons(){
     return(
         <span className="contact--buttons">
             <a className="email--button" href='#' ><FontAwesomeIcon icon={faEnvelope} />Email</a>
-            <a className="linkedIn--button" href='#' ><FontAwesomeIcon icon={faLinkedin} />LinkedIn</a>
+            <a className="linkedIn--button" href='https://www.linkedin.com/in/jordan-dullier-41494084/' target="_blank"><FontAwesomeIcon icon={faLinkedin} />LinkedIn</a>
         </span>
     )
 }
